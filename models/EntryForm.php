@@ -11,7 +11,6 @@ class EntryForm extends Model
 	public $name;
 	public $email;
 
-
 	public function rules()
 	{
 		return [
@@ -20,4 +19,4 @@ class EntryForm extends Model
 		];
 	}
 }
- ?>}
+?>
